@@ -87,3 +87,20 @@
     color: white;
     margin-top: 32px;
 }
+
+/* para modal point created com erro */
+#modal.error .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+#modal.error .icone-erro{
+    width: 64px;
+    height: 64px;
+}
+
+#modal.error h1{
+    color: white;
+    margin-top: 32px;
+}
